@@ -1,4 +1,4 @@
-# VisitScotland Digital Teams Open Source Coding Policy
+# VisitScotland [VS] Digital Teams Open Source Coding Policy
 
 1.  **Introduction**
     

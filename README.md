@@ -88,7 +88,7 @@
         [license](https://opensource.org/licenses) will be the select
         license for this policy.
     
-    3.  **Following** [Digital
+    3.  Following [Digital
         First](https://resources.mygov.scot/standards/digital-first/)
         Service Standards.
 

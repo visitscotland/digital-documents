@@ -1,4 +1,4 @@
-# VisitScotland [VS] Digital Teams Open Source Coding Policy
+# VisitScotland Digital Teams Open Source Coding Policy
 
 1.  **Introduction**
     
@@ -56,11 +56,11 @@
 3.  **Policy Statement, Commitment & Responsibilities**
     
     1.  An Open Source Steering Group will be created to review and
-        guide VS staff on implementation of this process. Their role
+        guide VisitScotland staff on implementation of this process. Their role
         will be to periodically review this policy document and the
         progress of its implementation.
     
-    2.  VS staff will open source all new digital projects. To
+    2.  VisitScotland staff will open source all new digital projects. To
         accomplish this, we'll be publishing our source code to
         [GitHub](https://github.com/) and applying an open source
         [MIT](https://opensource.org/licenses/MIT)
@@ -70,7 +70,7 @@
         and ensure that any sensitive parts of the source code, such as
         keys to external and internal APIs, will not be published.
     
-    4.  VS will ensure that relevant training is provided to support VS
+    4.  VisitScotland will ensure that relevant training is provided to support 
         staff in the implementation of this policy and ensure that the
         creation of required processes is put in place and followed.
     
@@ -92,7 +92,7 @@
         First](https://resources.mygov.scot/standards/digital-first/)
         Service Standards.
 
-5.  **Relationship to other VS Policies**
+5.  **Relationship to other VisitScotland Policies**
     
     1.  Any project that open sources its code should follow our
         Cybersecurity processes and protocols.

@@ -11,13 +11,10 @@
         is the principle where code is open sourced, such that it can be
         reviewed by external parties.
     
-    3.  As part of Scottish Government Open Source and Open Standard
+    3.  As part of Scottish Government Digital Scotland Service Standard
         [Policy
-        Strategy](https://resources.mygov.scot/standards/policy-strategy/#open-source-and-open-standards)
-        document *‘Where software is produced in-house by the Scottish
-        public sector, or through publicly funded research and
-        development projects, consideration should be given to making
-        this available as Open source software‘*.
+        Strategy]([https://resources.mygov.scot/standards/policy-strategy/#open-source-and-open-standards](https://www.gov.scot/publications/digital-scotland-service-standard/pages/11--make-new-source-code-open/))
+        document *‘Make all new source code open and reusable, and publish it under appropriate licences‘*.
     
     4.  According to [Digital
         First](https://resources.mygov.scot/standards/digital-first/)

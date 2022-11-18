@@ -9,10 +9,10 @@ PROCESS
 ## Types of Issues
 
 ### Bugs
-Can you replicate the bug?  If so, verify the same result with a colleague and ask the test team to assist if it's a specific device bug.  If not, ask the submitter for more detail and use a service such as https://www.whatsmybrowser.org/ to gather more information
+Can you replicate the bug?  If so, verify the same result with a colleague and ask the test team to assist if it's a specific device bug.  If not, ask the submitter for more detail and use a service such as https://www.whatsmybrowser.org/ to gather more information.
 
 ### Documentation
-Documentation changes are ususally made if there is a lack of clarity or important information in the README or additional docs.  Use common sense to action the change yourself if you can.
+Documentation changes are usually made if there is a lack of clarity or important information in the README or additional docs.  Use common sense to action the change yourself if you can.
 
 ### Duplicate
 An issue might be a duplicate, they should be tagged as such and escalated with the development teams.

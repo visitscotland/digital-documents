@@ -47,7 +47,7 @@ There are several considerations that must be made in the application of text to
 - Avoiding hyphenation of text 
 - Avoiding justification of text
 
-For further details, visit [https://resources.mygov.scot/design-standards/accessibility/]
+For further details, visit https://resources.mygov.scot/design-standards/accessibility/
 
 ## Colour and Contrast 
 

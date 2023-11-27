@@ -5,7 +5,6 @@
   - [Text and Typography](#text-and-typography)
   - [Colour and Contrast](#colour-and-contrast)
   - [Multimedia](#multimedia)
-  - [Processes](#processes)
       - [Pre-recorded audio only](#pre-recorded-audio-only)
       - [Pre-recorded video only](#pre-recorded-video-only)
       - [Use of Decorative Images](#use-of-decorative-images)

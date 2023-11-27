@@ -2,8 +2,8 @@
 
 - [Digital Accessibility Standards VisitScotland](#digital-accessibility-standards-visitscotland)
   - [Introduction](#introduction)
-  - [Text & Typography](#text-&-typography)
-  - [Colour & Contrast](#colour-&-contrast)
+  - [Text and Typography](#text-and-typography)
+  - [Colour and Contrast](#colour-and-contrast)
   - [Multimedia](#multimedia)
   - [Processes](#processes)
       - [Pre-recorded audio only](#pre-recorded-audio-only)
@@ -36,7 +36,7 @@ Acceptable evidence includes a spreadsheet recording test results, automated scr
 
 For more detail on accessibility recommendations, visit the WCAG website at: [WCAG2.2](https://www.w3.org/TR/WCAG22/)
 
-## Text & Typography
+## Text and Typography
 
 There are several considerations that must be made in the application of text to ensure that content is accessible. These include: 
 - Using sans-serif fonts (for example, Roboto, Helvetica or Arial instead of Georgia for body text) 
@@ -50,7 +50,7 @@ There are several considerations that must be made in the application of text to
 
 For further details, visit [https://resources.mygov.scot/design-standards/accessibility/]
 
-## Colour & Contrast 
+## Colour and Contrast 
 
 To provide good contrast, the contrast ratio between the text and background should be greater than or equal to 4.5:1 for small text and 3:1 for large text.
 

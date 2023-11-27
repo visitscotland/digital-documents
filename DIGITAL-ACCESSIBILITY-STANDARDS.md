@@ -11,8 +11,8 @@
   - [Accessibility Testing](#accessibility-testing)
     - [Manual Testing](#manual-testing)
     - [Automated Testing](#automated-testing)
-    - [Assistive Technologies](#assistive-echnologies)
-    - [Testing Principles](testing-principles)
+    - [Assistive Technologies](#assistive-technologies)
+    - [Testing Principles](#testing-principles)
 
 ## Introduction
 

@@ -1,7 +1,5 @@
 # Digital Partner Standards VisitScotland
 
-Last edited: 21 November 2023
-
 - [Digital Partner Standards VisitScotland](#digital-partner-standards-visitscotland)
   - [Introduction](#introduction)
   - [Types of solution](#types-of-solution)

@@ -139,7 +139,7 @@ Recommended tools include:
 
 It is recommended that accessibility linting tools and other test automation is integrated into the Software Development Lifecycle to catch errors as digital assets are designed, developed, and built.
 
-**Digital Partners are required to provide VisitScotland with a Test Summary document to show automated accessibility test has been carried out and that the asset, product or service meets WCAG 2.1 AA guidelines.**
+**Digital Partners are required to provide VisitScotland with a Test Summary document to show automated accessibility test has been carried out and that the asset, product or service meets WCAG 2.2 AA guidelines.**
 
 ### Assistive Technologies 
 

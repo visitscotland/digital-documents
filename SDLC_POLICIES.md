@@ -1,7 +1,9 @@
 Software Development Lifecycle Policies
 ====================================
 
-In VisitScotland, ensuring our software is safe and reliable is crucial. The Policy Section lays out clear guidelines for our developers or collaboratioto follow. These guidelines help us all work together to keep our software secure and protect it from potential problems.
+In VisitScotland, ensuring our software is safe and reliable is crucial. The Policy Section lays out clear guidelines 
+for our developers or collaboration follow. These guidelines help us all work together to keep our software secure and 
+protect it from potential problems.
 
 This section explains the practices developers should use throughout the software development process. It's meant to fit smoothly into our work, making sure we balance strong security with the flexibility needed for creativity.
 

@@ -47,7 +47,9 @@ lifecycle._
    be carefully considered as they might grant access to public facing services
 3. **Determine the Type**: Identify whether the leaked secret is a production secret, a test secret or a non-secret key.
 4. **Assess the Impact**: Evaluate the severity and potential impact of the leak on systems, data, and user security.
-5. **Open Source**: Identify whether the project is Open Source or not. Open Source projects
+5. **Open Source**: Identify whether the project is Open Source or not. An Open-source project needs to address  
+6. vulnerabilities quicker than a closed source project because we are disclosing such vulnerability in our Bill of 
+   Materials
 6. **Report**: Report the issue to your technical leader to make sure that the issue has been dealt correctly. They 
    might help to validate that the proper action has been or will be performed
    
@@ -57,7 +59,7 @@ If the secret relates to an Open Source Repository
    keys, reset passwords, or invalidate tokens.
 2. **Update Configuration**: Replace the leaked secret with a new, secure value in all relevant systems and codebases.
 3. **Remove from History**: Ensure the secret is removed from the code repository history. Use tools like 
- _git filter-branch_ or _BFG Repo-Cleaner_ to clean the repository history.
+ _git filter-branch_ or _BFG Repo-Cleaner_ to [clean the repository history](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository).
 
 
 ### Report
@@ -106,3 +108,5 @@ ensures that only authorized personnel have the ability to manage and access sen
 
 ## Policy Compliance
 Compliance with this policy is mandatory. Failure to comply with this policy will result in stricter processes
+
+

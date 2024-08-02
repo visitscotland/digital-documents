@@ -91,9 +91,8 @@ ensures that only authorized personnel have the ability to manage and access sen
 - **Issue Secrets**: Create new secrets when access to sensible systems is needed. This responsibility can be delegated
   to helpdesk for some systems.
 - **Access Control**: Implement strict access controls and policies to ensure that only authorized team members and 
-  systems can access production secrets. Regularly review and update access permissions. Test secrets should be 
-  evaluated depending on the secret itself as some of them might need to be carefully handled to prevent a breach of 
-  contract
+  systems can access production secrets. Test secrets should be evaluated depending on the secret itself as some of them
+  might need to be carefully handled to prevent a breach of contract
 - **Audit**: Conduct regular audits of secret access and usage and revoke access to systems if it is no longer needed
 
 ### Developer Responsibilities

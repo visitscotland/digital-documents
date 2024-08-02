@@ -15,8 +15,9 @@ management and security hygiene.
   source code. This helps in maintaining cleaner code and reduces the risk of accidental exposure.
 - **Configuration Files**: If using configuration files, ensure they are not committed to version control. 
  Use .gitignore file to exclude these configuration files from the repository.
-- **Secret Management Tools**: By using secret management tools, you can ensure that this values are securely stored
-  outside the codebase.
+- **Secret Management Tools**: By using secret management tools, you can ensure that these values are securely stored
+  outside the codebase and, they can make the code more easily transferable between environments 
+  (i.e. development/test/production) 
 
 ### Documentation:
 - **Include Instructions**: Provide clear documentation on how to configure and use non-secret API keys, including steps 

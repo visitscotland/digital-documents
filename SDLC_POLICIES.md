@@ -14,3 +14,5 @@ quality.
 ## Security Policies
 
 - [Vulnerability Management Policy](/security/vulnerability-management.md)
+- [Secret Management Policy](security/secret-management.md)
+- [Management of Non-Secret Keys and Sensible Configuration Values](security/key-management.md)

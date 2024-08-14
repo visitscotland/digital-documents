@@ -93,7 +93,7 @@ ensures that only authorized personnel have the ability to manage and access sen
 - **Access Control**: Implement strict access controls and policies to ensure that only authorized team members and 
   systems can access production secrets. Test secrets should be evaluated depending on the secret itself as some of them
   might need to be carefully handled to prevent a breach of contract
-- **Audit**: Conduct regular audits of secret access and usage and revoke access to systems if it is no longer needed
+- **Audit**: Conduct quarterly audits of secret access and usage and revoke access to systems if it is no longer needed
 
 ### Developer Responsibilities
 
@@ -102,8 +102,9 @@ ensures that only authorized personnel have the ability to manage and access sen
   approved by the Operations team.
 - **Do Not Hardcode Secrets**: Avoid hardcoding secrets directly in the codebase. Use environment variables, 
   configuration files, or secure vaults to manage secrets.
-- **Report Issues**: Immediately report any suspected leaks or vulnerabilities related to secrets to the Web Operations 
-  team. Prompt reporting helps mitigate risks and prevent potential security incidents.
+- **Report Issues**: GitGuardian will report codebase related issues but if there is any suspected leaks or 
+  vulnerabilities related to secrets not detected GitGuardian, immediately report to the Web Operations team via 
+  email. Prompt reporting helps mitigate risks and prevent potential security incidents. 
 
 ## Policy Compliance
 Compliance with this policy is mandatory. Failure to comply with this policy will result in stricter processes

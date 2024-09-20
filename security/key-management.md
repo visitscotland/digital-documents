@@ -38,7 +38,7 @@ management and security hygiene.
   an equivalent domain URL when possible. (i.e. http://192.168.20.24:1234)
 - **Public API keys**: For accessing free, rate-limited services. They should not be included in the code base 
   (i.e. marketo-munch, recaptcha key, GTM id, etc ...)
-- **Access Token**: Even though this keys might be exposed in a webpage they might need to be treated as **secret** 
+- **Access Token**: Even though such keys might be exposed in a webpage, they might need to be treated as **secret** 
   please read carefully the Terms and Condition of the Contract **before using** any access token.
 
 ## Policy Compliance

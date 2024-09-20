@@ -107,6 +107,4 @@ ensures that only authorized personnel have the ability to manage and access sen
   email. Prompt reporting helps mitigate risks and prevent potential security incidents. 
 
 ## Policy Compliance
-Compliance with this policy is mandatory. Failure to comply with this policy will result in stricter processes
-
-
+Compliance with this policy is mandatory.

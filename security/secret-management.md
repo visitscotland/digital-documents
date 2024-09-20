@@ -37,7 +37,7 @@ lifecycle._
 - **Environment Variables**: Sensitive data stored as environment variables in deployment configurations.
 
 
-## What to do when a vulnerability is found
+## What to do when a secret is leaked
 
 ### Assessment
 
@@ -47,11 +47,11 @@ lifecycle._
    be carefully considered as they might grant access to public facing services
 3. **Determine the Type**: Identify whether the leaked secret is a production secret, a test secret or a non-secret key.
 4. **Assess the Impact**: Evaluate the severity and potential impact of the leak on systems, data, and user security.
-5. **Open Source**: Identify whether the project is Open Source or not. An Open-source project needs to address  
-6. vulnerabilities quicker than a closed source project because we are disclosing such vulnerability in our Bill of 
+5. **Open Source**: Identify whether the project is Open Source or not. An Open-source project needs to address
+   vulnerabilities quicker than a closed source project because we are disclosing such vulnerability in our Bill of 
    Materials
-6. **Report**: Report the issue to your technical leader to make sure that the issue has been dealt correctly. They 
-   might help to validate that the proper action has been or will be performed
+7. **Report**: Report the issue to the _Digital Development Senior Manager_ to make sure that the issue has been dealt
+   with correctly. They might help to validate that the proper action has been or will be performed
    
 ### Remediation
 If the secret relates to an Open Source Repository

@@ -97,7 +97,7 @@ All custom digital assets must consider or comply with VisitScotland practices, 
 
 ### Briefing a Digital Partner
 
-The creative team owning the partnership will put together a brief with the Digital Partner that references this Digital Standards documentation. The brief will also be sent to product owners for .com and .org for cascading to functional teams for review.
+The creative team owning the partnership will put together a brief with the Digital Partner that references this Digital Standards documentation. The brief will also be sent to relevant product owners for cascading to functional teams for review.
 
 If there is a need to deviate from standards, then the recommended delivery architecture should be discussed with VisitScotland’s Digital team prior to submission of the Proposed Technical Implementation.
 
@@ -123,7 +123,7 @@ During the implementation phase all Design, Development, UX, SEO and Content cre
 
 ### VisitScotland’s Architectural Roadmap and Platforms
 
-VisitScotland provides platforms that are open and can be integrated into, preferably Digital Partners would develop a solution using one of:
+VisitScotland provides platforms that are open and can be integrated into. Preferably Digital Partners would develop a solution using one of:
 
 - VisitScotland APIs
 - CMS (Bloomreach BRXM)
@@ -164,7 +164,7 @@ where *23266150223* represents a time of: 15:02:23 on the 266th day of the year 
 
 ### Security Standards
 
-VisitScotland’s policies on Security standards are under review, however standard [OWASP principles](https://owasp.org/) along with the Cyber Security standards laid out in this document should be followed.
+VisitScotland’s policies on Security standards are under constant review, however standard [OWASP principles](https://owasp.org/) along with the Cyber Security standards laid out in this document should be followed.
 
 ### Supported Platforms
 
@@ -228,7 +228,7 @@ Appropriate levels of logging should be in place to support fault resolution and
 
 Cybersecurity standards protect VisitScotland, its partners and customers from attacks that could compromise data or damage systems.
 
-In terms of custom developed systems, as well as OWASP principles mentioned in section 5.4, there are a couple of other security vectors that need to be considered below.
+In terms of custom developed systems, as well as OWASP principles already mentioned, there are a couple of other security vectors that need to be considered below.
 
 ### Supply Chain Compromise
 
@@ -254,7 +254,7 @@ All digital assets should be introduced such that periodical maintenance reviews
 
 ### Accessibility
 
-As of 23rd September 2019, all new Public Sector bodies are legally required to ensure their websites and apps are “perceivable, operable, understandable and robust” by complying with WCAG 2.1 Accessibility Guidelines AA Standard. Therefore, all Digital Partners must adhere to current version of VisitScotland's **Digital Accessibility Standards** document when producing any new digital asset, providing any documentation asked for therein.
+As of 23rd September 2019, all new Public Sector bodies are legally required to ensure their websites and apps are “perceivable, operable, understandable and robust” by complying with WCAG 2.1 Accessibility Guidelines AA Standard. In October 2023, this requirement was upgraded to WCAG 2.2 AA standard. Therefore, all Digital Partners must adhere to current version of VisitScotland's **Digital Accessibility Standards** document when producing any new digital asset, providing any documentation asked for therein.
 
 ### Readability
 
@@ -435,3 +435,5 @@ A typical QA process would involve:
 Automated tests should be utilised wherever possible so that Quality of digital assets can be measured swiftly and in a repeatable fashion against any environment, whether that be a Development, Staging / Acceptance or Production. It should be noted that any QA process adopted should be relevant in terms of the complexity of the asset being delivered.
 
 **Test documentation including Test Summary Reports should be produced as standard and shared with VisitScotland on the delivery of every asset**.
+
+*Document last review date: 14/05/2025*

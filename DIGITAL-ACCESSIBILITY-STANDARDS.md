@@ -47,7 +47,6 @@ There are several considerations that must be made in the application of text to
 - Avoiding hyphenation of text 
 - Avoiding justification of text
 
-For further details, visit https://resources.mygov.scot/design-standards/accessibility/
 
 ## Colour and Contrast 
 
@@ -91,7 +90,7 @@ Digital Partners can find further information on media accessibility with [WCAG 
 
 ### Use of Decorative Images
 
-The nature of VisitScotland’s digital estate requires the use of images that end users will find inspirational. However, the announcement of these images to a screen reader user can be overwhelming and repeatedly attributes to ‘audible clutter’. As such, many ¬images which do not add information to the content of the page as considered as Decorative Images.
+The nature of VisitScotland’s digital estate requires the use of images that end users will find inspirational. However, the announcement of these images to a screen reader user can be overwhelming and repeatedly attributes to ‘audible clutter’. As such, any images which do not add information to the content of the page are considered as Decorative Images.
 
 These images require the addition of an empty or null alt text attribute in the HTML code as this will instruct the screen reader to skip over them. A null alt text is written as **alt=""**. Not providing an empty alt text attribute will result in some screen readers announcing the name of the image file instead. 
 
@@ -113,7 +112,7 @@ Carried out alongside automated testing, manual accessibility testing should foc
 
 Many accessibility auditing tools such as Google Lighthouse and Deque Axe will provide details on additional manual testing which has not been captured by the automation. 
 
-The [18F accessibility guide](https://accessibility.18f.gov/) provides a checklist and simple test procedures to test common accessibility aspects of digital applications and it is recommended that Digital Partners utilise these in their testing procedures.
+The [18F accessibility guide](https://guides.18f.org/accessibility/) provides a checklist and simple test procedures to test common accessibility aspects of digital applications and it is recommended that Digital Partners utilise these in their testing procedures.
 
 **Digital Partners are required to provide VisitScotland with a Test Summary document to show a manual accessibility test has been carried out. This should include details of; operating System, device, browser version, project, task, result, name of tester, date, and details of any errors.**
 
@@ -145,19 +144,18 @@ It is recommended that accessibility linting tools and other test automation is 
 
 Digital assets, products or services must work with assistive technologies. This is so everyone can use the service with the technology they rely on, such as a screen reader or speech recognition software. 
 
-Testing with assistive technology should be part of the overall accessibility testing for the asset / service and should prove that the it works with the [minimal following combinations of assistive technologies and browsers as advised by GOV.UK:](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies) 
+Testing with assistive technology should be part of the overall accessibility testing for the asset / service and should prove that it works with the [minimal following combinations of assistive technologies and browsers as advised by GOV.UK:](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies) 
 
 | Tool          | Tool Version  | Browser |
 | ------------- | ------------- | ------- |
-| JAWS (desktop screen reader)  | 2019 or later     | Chrome or Edge (latest version), *Firefox 
-| NVDA (desktop screen reader)  | Latest            | Chrome or Edge (latest version), *Firefox
+| JAWS (desktop screen reader)  | 2019 or later     | Chrome or Edge (latest version), Firefox 
+| NVDA (desktop screen reader)  | Latest            | Chrome or Edge (latest version), Firefox
 | VoiceOver on iOS (mobile screen reader)  | Latest | Safari (version 12 or later)
 | TalkBack on Android (mobile screen reader)  | Latest | Chrome (latest version)
 | Windows Magnifier or Apple Zoom (screen magnifiers)  | Latest  | Any
 | Dragon (speech recognition)   | 15 or later          | Chrome (latest version)
 
 
-*Though Firefox is not listed by the UK Government, VisitScotland includes Firefox within our supported platforms and this support should extend to accessible users. 
 In addition to the minimum combinations, VisitScotland is aspiring to enhance accessibility across mobile devices, as more accessible functionality is being in-built into these devices. 
 
 It is recommended that the following combinations are considered:
@@ -177,7 +175,7 @@ Screen reader end-to-end testing should be completed to understand how informati
 
 Screen readers will provide information about the role, state and value of user interface components to the user. Native HTML elements, links and components have the capability to provide this information to the screen reading software. Therefore, it is advised to use semantic HTML where possible, and only use ARIA tags in the code where it is strictly necessary to do so. 
 
-If custom controls are created then the [WCAG Name, Role, Value standard best practices](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html#benefits) should be followed. 
+If custom controls are created then the [WCAG Name, Role, Value standard best practices](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html) should be followed. 
 
 
 **Descriptive Labels**
@@ -210,4 +208,4 @@ For further guidelines on how to test with assistive technologies, see the [UK G
 
 **Digital Partners are required to provide VisitScotland with a Test Summary document to show a testing with assistive technology has been carried out. This should include software and version, browser and version, project, task, result, name of tester, date, and details of any errors.**
 
-**Note:** The use of Google Docs should be avoided as this system cannot be accessed from VisitScotland offices.
+*Document last review date: 14/05/2025*

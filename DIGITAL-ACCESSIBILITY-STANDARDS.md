@@ -208,4 +208,4 @@ For further guidelines on how to test with assistive technologies, see the [UK G
 
 **Digital Partners are required to provide VisitScotland with a Test Summary document to show a testing with assistive technology has been carried out. This should include software and version, browser and version, project, task, result, name of tester, date, and details of any errors.**
 
-*Document last review date: 14/05/2025*
+*Document last review date: 10/11/2025*

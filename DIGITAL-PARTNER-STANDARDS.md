@@ -196,7 +196,7 @@ As a minimum, the following operating systems or platforms should be supported:
 
 | OS        | Version                               |
 |---------- |---------------------------------------|
-| Windows   | 10 & 11                               |
+| Windows   | 11                                    |
 | macOS     | Catalina (2019) onwards               |
 | iOS       | current version + one prior           |
 | Android   | current version + two versions prior  |
@@ -436,4 +436,4 @@ Automated tests should be utilised wherever possible so that Quality of digital 
 
 **Test documentation including Test Summary Reports should be produced as standard and shared with VisitScotland on the delivery of every asset**.
 
-*Document last review date: 14/05/2025*
+*Document last review date: 10/11/2025*

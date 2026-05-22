@@ -244,7 +244,7 @@ When developing or procuring digital content assets, consideration should be giv
 
 - Standards that it was developed to, such as usability, or cyber security fall behind.
 
-- Consideration of a maintenance phase should be planned and costed for which caters not just for hosting but any functional or technical change to assets.
+Consideration of a maintenance phase should be planned and costed for which caters not just for hosting but any functional or technical change to assets.
 
 All digital assets should be introduced such that periodical maintenance reviews take place:
 
@@ -270,13 +270,13 @@ Additional guidance can be found in the [UK Government website on Progressive En
 
 Further, where JavaScript frameworks are chosen to build client-side web applications, consideration should be given to mitigate problems between client and server and address accessibility, performance, and SEO requirements. To this end Server-Side Rendering implementations maybe required, please speak to VisitScotland’s development team who will be happy to offer advice.
 
-### Analytics, SEO and GDPR
+### Analytics, SEO and PECR/GDPR
 
-All assets developed for VisitScotland should comply with [Digital Scotland Service Standards](https://www.gov.scot/publications/digital-scotland-service-standard/) and should include VisitScotland’s standards on general analytics, SEO and GDPR.
+All assets developed for VisitScotland should comply with [Digital Scotland Service Standards](https://www.gov.scot/publications/digital-scotland-service-standard/) and should include VisitScotland’s standards on general analytics, SEO and PECR/GDPR.
 
 Discussion with relevant teams should be had early in any Discovery phase and before development starts. Relevancy of the asset should determine how much engagement will be required. Specific requirements on these topics are outlined in the following sections.
 
-In terms of GDPR, for any assets recording identifiable data, Digital Partners should work with the VisitScotland Information Officer to follow established GDPR processes within VisitScotland.
+In terms of PECR/GDPR, for any assets recording identifiable data, Digital Partners should work with the VisitScotland Information Officer to follow established PECR/GDPR processes within VisitScotland.
 
 #### Tracking requirements
 
@@ -288,25 +288,27 @@ In terms of GDPR, for any assets recording identifiable data, Digital Partners s
 
 The VisitScotland Digital Analytics team will manage the setup of any Analytics infrastructure, with the assistance of any Digital Partner when appropriate. As stated above, discussions with the Analytics team should be had early in any Discovery phase and before development starts. These discussions are likely to centre around:
 
-- Creation of a Google Analytics account/property/views to ensure accurate and relevant reporting of the asset. This will include standard analytics metrics (pageviews, sessions, bounce rate, etc) as well as specific events tracking, goals and KPIs for the asset.
+- Creation of a Google Analytics (GA) account/property to enable engagement focused reporting of the asset, based on a subset of our total traffic (users who have consented to cookies). This will include standard GA metrics (engaged sessions, engagement rate, average session duration, etc) as well as custom events tracking and KPIs for the asset.
 
-- Site search tracking and reporting within Google Analytics.
+-	Creation of a Matomo measurable to capture overall traffic to the asset. This will focus on high-level, cookie-less metrics, including visits and page views, providing a comprehensive view of total activity.
+
+- Site search tracking and reporting within Google Analytics and Matomo.
 
 - SEO reporting in Google Analytics.
 
 - Custom channel grouping based on specific asset needs.
 
-Note, that website reporting is subject to **opt-in consent** for all non-essential/non-strictly necessary cookies. See GDPR compliance in the use of cookies and similar technologies for further information.
+Note, that website reporting in Google Analytics is subject to **opt-in consent** for analytical cookies. See GDPR compliance in the use of cookies and similar technologies for further information.
 
 ### GPDR compliance in the use of cookies and similar technologies
 
-To comply with current GDPR legislation, all VisitScotland digital assets (websites and mobile apps) must **obtain consent before collecting any user data, personal or otherwise**. This requires the implementation of opt-in consent for cookies and similar technologies (e.g. google analytics, Facebook pixel, YouTube embedded videos, etc).
+To comply with current GDPR legislation, all VisitScotland digital assets (websites and mobile apps) must **obtain consent before collecting any user data, personal or otherwise via cookie-dependent technologies**. This requires the implementation of opt-in consent for cookies and similar technologies (e.g. google analytics, Facebook pixel, YouTube embedded videos, etc).
 
-All but essential or strictly necessary cookies will require opt-in consent to fire/deploy on a user’s browser. As a result, Digital Partners must consider the impact of intended / required functionality if consent for the relevant cookies is not given and mitigate such impacts to the satisfaction of VisitScotland.
+All non-essential cookies will only be deployed once users have provided consent for the relevant cookie category (e.g. analytics, marketing, functional), or have chosen to accept all cookies. As a result, Digital Partners must consider the impact of intended / required functionality if consent for the relevant cookies is not given and mitigate such impacts to the satisfaction of VisitScotland.
 
 To comply with GDPR legislation in the use of cookies, assets must include the following elements:
 
-- Cookie banner: with clear and easy to understand information, the option to accept/manage cookie settings and a link to a detailed cookie policy page where users can access more information about the types of cookies used on the site (including cookie provider, name, purpose, category and lifespan).
+- Cookie banner: with clear and easy to understand information, the option to accept/reject/manage cookie settings and a link to a detailed cookie policy page where users can access more information about the types of cookies used on the site (including cookie provider, name, purpose, category and lifespan).
 
 - Cookie preference centre: where users can select/view/manage their cookie preferences. This must be easily accessible on an asset at any point during the user journey. e.g. through a link on the footer of a web page.
 
@@ -322,7 +324,7 @@ The cookie banner and preference centre must adhere to the latest version of Vis
 
 In order to remain compliant, any asset is expected to be flexible and scalable to quickly accommodate any future changes in legislation.
 
-When required/appropriate, VisitScotland may choose to implement OneTrust cookie consent software to meet the above requirements. In these cases, the implementation will be managed by the Digital Analytics team via Google Tag Manager in collaboration with internal development teams and/or Digital Partner.
+When required/appropriate, VisitScotland may choose to implement Civic cookie consent software to meet the above requirements. In these cases, the implementation will be managed by the Digital Analytics team via Google Tag Manager in collaboration with internal development teams and/or Digital Partner.
 
 The information outlined in this section refers to current GDPR legislation in the use of cookies and similar website and app technologies (pixels, mobile and in app tracking technologies) only and it does not cover wider GDPR and other legal requirements such as forms or payment data. As stated previously, for any assets recording identifiable data, Digital Partners should work with the VisitScotland Information Officer to follow established GDPR processes within VisitScotland.
 
@@ -364,13 +366,15 @@ The following are principles to applied to data collection on forms. Digital Par
 
 The following SEO requirements should be met for any digital asset.
 
-- Keyword Research should be carried out at the beginning of each project to help shape the content ideation process. Keyword research can be provided by the VisitScotland SEO team. Each asset should have a target keyword set where possible.
+- Organic Research should be carried out at the beginning of each project to help shape the content ideation process. Keyword research and trends can be provided by the VisitScotland SEO team. Each asset should have a target keyword set where possible.
 
 - Keywords should be threaded naturally into URLs, title tags, meta descriptions, H1s and copy.
 
-- Each page should have a unique Title tag. Title tags should be no longer than 70 characters (including spaces and brand).
+-	Use search language naturally, with user-first intent. Avoid keyword stuffing.
 
-- Each page should be assigned a unique meta description. Meta descriptions should be no longer than 160 characters (including spaces).
+- Each page should have a unique Title tag. Title tags should ideally be 50-60 characters, and at maximum be no longer than 70 characters (including spaces and brand).
+
+- Each page should be assigned a unique meta description, to summarise the page clearly and encourage click-through-rates. Meta descriptions should be no longer than 160 characters (including spaces).
 
 - All assets should use breadcrumbs, in-line with the relevant VisitScotland property.
 
@@ -380,27 +384,31 @@ The following SEO requirements should be met for any digital asset.
 
 - Each asset should have one, unique H1. Where the asset has multiple URLs, each URL should have one, unique H1.
 
+-	Headings should be hierarchical, for example using H2/H3 in order, and be descriptive, concise and front-loaded where possible.
+
 - Creating subdomains, microsites and eBooks should be avoided unless there is a valid reason not to place the asset on an existing VisitScotland property.
 
-- Hreflang tags should be included in the <head> section of pages if the asset is translated.
+- Hreflang tags should be included in the &lt;head&gt; section of pages if the asset is translated.
 
-- All images should have alt text.
+- Meaningful images should have alt text. Do not use alt text on descriptive images.
 
 - Image file size should be reduced as much as possible to protect page speed.
 
 - Filenames for images should be meaningful, descriptive and clear.
 
-- All assets should link to other relevant VisitScotland content to aid discoverability for users and search engines.
+- All assets should link to other relevant VisitScotland content to aid discoverability for users and search engines. Vague anchor text such as ‘click here’ should be avoided.
 
 - Ensure use of JavaScript is SEO friendly. Testing should be carried out to ensure that the asset can be crawled, rendered and indexed by search engines.
 
 - All assets should be built mobile first and should be responsive.
 
-- Each page should have open graph mark-up included in the <head> section of the html for social sharing.
+- Each page should have open graph mark-up included in the &lt;head&gt; section of the html for social sharing.
 
 - Assets placed on either visitscotland.com or visitscotland.org properties, should not use a trailing slash in the URL(s)
 
 - URLs should be easy to read for users. Shorter URLs are preferable.
+
+-	Where relevant, use structured data correctly to help search engines understand page content
 
 ### Quality Assurance
 
@@ -436,4 +444,4 @@ Automated tests should be utilised wherever possible so that Quality of digital 
 
 **Test documentation including Test Summary Reports should be produced as standard and shared with VisitScotland on the delivery of every asset**.
 
-*Document last review date: 10/11/2025*
+*Document last review date: 22/05/2026*

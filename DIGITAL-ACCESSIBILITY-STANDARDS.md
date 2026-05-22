@@ -162,7 +162,7 @@ It is recommended that the following combinations are considered:
 
 | Tool          | Tool Version  | Browser |
 | ------------- | ------------- | ------- |
-| iOS Rotary Controls and Gestures (accessible controls)  | Latest   | Safari (Version 12 or latest) 
+| iOS Rotary Controls and Gestures (accessible controls)  | Latest   | Safari (latest version) 
 | Android Gestures (accessible controls)  | Latest   | Any
 | Android Voice Access and iOS Voice control (mobile speech recognition)  | Latest  | Any
 
@@ -194,7 +194,6 @@ Additional information on screen reader shortcuts and gestures can be found on t
 
 Most users do not amend the settings on their assistive technology and thus Digital Partners are advised to test their software using assistive technologies on their default setting.
 
-It is recommended that screen reader testing is conducted using NVDA over JAWS, as testing should be conducted with the lesser sophisticated product.
 Real devices or physical technology should be used if available, though Digital Partners must consider testing on virtual machines, emulators, or cloud-based devices if access to a real device or physical technology is not possible.
 
 When testing using assistive technology, make sure: 
@@ -208,4 +207,4 @@ For further guidelines on how to test with assistive technologies, see the [UK G
 
 **Digital Partners are required to provide VisitScotland with a Test Summary document to show a testing with assistive technology has been carried out. This should include software and version, browser and version, project, task, result, name of tester, date, and details of any errors.**
 
-*Document last review date: 10/11/2025*
+*Document last review date: 22/05/2026*

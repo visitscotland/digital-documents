@@ -24,6 +24,7 @@
     - [Responsive Design](#responsive-design)
     - [Logging Principles and Standards](#logging-principles-and-standards)
     - [VisitScotland Software development Cybersecurity Standards](#visitscotland-software-development-cybersecurity-standards)
+    - [Use of Artificial Intelligence](#use-of-artificial-intelligence)
     - [Supply Chain Compromise](#supply-chain-compromise)
     - [Maintenance Policy](#maintenance-policy)
     - [Accessibility](#accessibility)
@@ -32,7 +33,7 @@
     - [Analytics, SEO and GDPR](#analytics-seo-and-gdpr)
       - [Tracking requirements](#tracking-requirements)
       - [Reporting requirements](#reporting-requirements)
-    - [GPDR compliance in the use of cookies and similar technologies](#gpdr-compliance-in-the-use-of-cookies-and-similar-technologies)
+    - [PECR compliance in the use of cookies and similar technologies](#pecr-compliance-in-the-use-of-cookies-and-similar-technologies)
     - [Data collection on forms](#data-collection-on-forms)
     - [SEO Basic Checklist](#seo-basic-checklist)
     - [Quality Assurance](#quality-assurance)
@@ -224,6 +225,31 @@ All assets must adhere to responsive design principles and thus testing at a var
 
 Appropriate levels of logging should be in place to support fault resolution and application support.
 
+### Use of Artificial Intelligence
+
+When Artificial Intelligence (AI) or Machine Learning forms part of the service or system provided to VisitScotland, VisitScotland will ask for:
+
+- Confirmation of the scope of use of AI in delivering the services.
+
+- A description of the AI systems and functionalities.
+
+- The types of AI technologies and Models used.
+
+- Whether any deliverables or outputs are generated or materially assisted by AI.
+
+- A statement to the effect that all intellectual property and output rights in AI-generated deliverables are assigned to VisitScotland.
+
+- Confirmation of how clients are protected against 3rd party claims arising from model use or training data.
+
+- Visibility of a Responsible / ethical AI policy.
+
+- A description of the processes and controls in place to manage AI risks arising from the services provided.
+
+- Identification of all dependencies on 3rd party AI models or technologies.
+
+- Confirmation of whether or not any AI systems included in the services are regulated (for example, are defined by the EU AI Act as "high risk").
+
+
 ### VisitScotland Software development Cybersecurity Standards
 
 Cybersecurity standards protect VisitScotland, its partners and customers from attacks that could compromise data or damage systems.
@@ -300,13 +326,13 @@ The VisitScotland Digital Analytics team will manage the setup of any Analytics 
 
 Note, that website reporting in Google Analytics is subject to **opt-in consent** for analytical cookies. See GDPR compliance in the use of cookies and similar technologies for further information.
 
-### GPDR compliance in the use of cookies and similar technologies
+### PECR compliance in the use of cookies and similar technologies
 
-To comply with current GDPR legislation, all VisitScotland digital assets (websites and mobile apps) must **obtain consent before collecting any user data, personal or otherwise via cookie-dependent technologies**. This requires the implementation of opt-in consent for cookies and similar technologies (e.g. google analytics, Facebook pixel, YouTube embedded videos, etc).
+To comply with current PECR legislation, all VisitScotland digital assets (websites and mobile apps) must **obtain consent before collecting any user data, personal or otherwise via cookie-dependent technologies**. This requires the implementation of opt-in consent for cookies and similar technologies (e.g. google analytics, Facebook pixel, YouTube embedded videos, etc).
 
 All non-essential cookies will only be deployed once users have provided consent for the relevant cookie category (e.g. analytics, marketing, functional), or have chosen to accept all cookies. As a result, Digital Partners must consider the impact of intended / required functionality if consent for the relevant cookies is not given and mitigate such impacts to the satisfaction of VisitScotland.
 
-To comply with GDPR legislation in the use of cookies, assets must include the following elements:
+To comply with PECR legislation in the use of cookies, assets must include the following elements:
 
 - Cookie banner: with clear and easy to understand information, the option to accept/reject/manage cookie settings and a link to a detailed cookie policy page where users can access more information about the types of cookies used on the site (including cookie provider, name, purpose, category and lifespan).
 
@@ -314,9 +340,7 @@ To comply with GDPR legislation in the use of cookies, assets must include the f
 
 - Cookie policy page: in clear / plain language regarding the use of cookies, a list of current cookies used on the website and access to the preference centre through a link or button. See <www.visitscotland.org> for reference.
 
-Fallbacks: in certain instances, a website feature or functionality will require explicit consent to be activated on the website (i.e. YouTube videos). If users do not provide consent for the relevant cookie category, said content or functionality will not work correctly. In these cases, a fallback should be added to the relevant modules/widgets to inform users and give them the option to modify their cookie settings to access the relevant content and improve user experience. See below examples of fallbacks for <www.visitscotland.com>.
-
-Digital Partners are advised to use the <www.visitscotland.com> or <www.visitscotland.org> websites for reference.
+Fallbacks: in certain instances, a website feature or functionality will require consent to be activated on the website (i.e. YouTube videos). If users do not provide consent for the relevant cookie category, said content or functionality will not work correctly. In these cases, a fallback should be added to the relevant modules/widgets to inform users and give them the option to modify their cookie settings to access the relevant content and improve user experience. Digital Partners are advised to use the <www.visitscotland.com> or <www.visitscotland.org> websites for reference.
 
 The criteria stated above must be applied to all elements of any asset including subdomains and any additional functionality added in subsequent phases of the asset’s lifespan.
 
@@ -326,7 +350,7 @@ In order to remain compliant, any asset is expected to be flexible and scalable 
 
 When required/appropriate, VisitScotland may choose to implement Civic cookie consent software to meet the above requirements. In these cases, the implementation will be managed by the Digital Analytics team via Google Tag Manager in collaboration with internal development teams and/or Digital Partner.
 
-The information outlined in this section refers to current GDPR legislation in the use of cookies and similar website and app technologies (pixels, mobile and in app tracking technologies) only and it does not cover wider GDPR and other legal requirements such as forms or payment data. As stated previously, for any assets recording identifiable data, Digital Partners should work with the VisitScotland Information Officer to follow established GDPR processes within VisitScotland.
+The information outlined in this section refers to current PECR legislation in the use of cookies and similar website and app technologies (pixels, mobile and in app tracking technologies) only and it does not cover wider GDPR and other legal requirements such as forms or payment data. As stated previously, for any assets recording identifiable data, Digital Partners should work with the VisitScotland Information Officer to follow established data protection processes within VisitScotland.
 
 ### Data collection on forms
 
@@ -334,17 +358,15 @@ The following are principles to applied to data collection on forms. Digital Par
 
 - Data should only be collected where necessary and for a specific purpose.
 
-- Fair processing statement must be included at point of data capture. This should outline what VisitScotland intends to do to each piece of data.
+- A Privacy Notice must be included/presented at point of data capture. This should outline what VisitScotland intends to do to each piece of data.
 
-- Detailed data policy must also be included.
+- Detailed Data Protection policies must also be provided to VisitScotland which must reflect what is happening with the data once captured. They should be open, honest & transparent.
 
-- Data Protection Policy must reflect what is happening with the data and be open, honest & transparent.
-
-- Explicit consent must be given to receive any type of marketing. This is usually in the form of a tick box; using pre-agreed wording.
+- Consent must be given to receive any type of marketing. This is usually in the form of a tick box; using pre-agreed wording.
 
 - Consent should be split for each channel. This gives users choice.  
 
-- Consent should be explicit for Third Parties / partners and should not be bundled in with VisitScotland. Again, this gives consumers choice.
+- Consent should be separate for Third Parties / partners and should not be bundled in with VisitScotland. Again, this gives consumers choice.
 
 - Only data from adults will be collected by VisitScotland. This is currently covered in the visitscotland.com terms and conditions.
 
@@ -444,4 +466,4 @@ Automated tests should be utilised wherever possible so that Quality of digital 
 
 **Test documentation including Test Summary Reports should be produced as standard and shared with VisitScotland on the delivery of every asset**.
 
-*Document last review date: 22/05/2026*
+*Document last review date: 07/08/2026*
